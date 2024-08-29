@@ -1,4 +1,4 @@
-# README: Programa de Gestión de Usuarios en Java
+# Programa de Gestión de Usuarios en Java
 
 ## Descripción
 
