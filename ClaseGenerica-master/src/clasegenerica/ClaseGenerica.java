@@ -11,9 +11,14 @@ public class ClaseGenerica {
 
         ArrayList datos = new ArrayList(4);
         datos.add(Usuario());
+        datos.add(Usuario());
+        datos.add(Usuario());
+        datos.add(Usuario());
 
         for (int i = 0; i < 4; i++) {
             for (int j = 4; j < 4; j++) {
+
+                // Almacenar los datos de cada uno de los campos para su almacenamiento en base de datos
                 ArrayList arrayUser = (ArrayList) datos.get(j);
                 String name = (String) ((Pair) arrayUser.get(0)).getSecond();
                 int edad = (Integer) ((Pair) arrayUser.get(1)).getSecond();
@@ -73,19 +78,19 @@ public class ClaseGenerica {
 
         System.out.println("Ingrese su nombre: ");
         String name = (String) in.next();
-        Pair<String, String> pairName = new Pair<>("name", name);
+        Pair<String, String> pairName = new Pair<>("El nombre del usuario es: ", name);
 
         System.out.println("Ingrese su edad: ");
         int edad = Integer.parseInt(in.next());
-        Pair<String, Integer> pairEdad = new Pair<>("edad", edad);
+        Pair<String, Integer> pairEdad = new Pair<>("La edad del usuario es: ", edad);
 
         System.out.println("Ingrese su fecha de nacimiento: ");
         LocalDate date = LocalDate.parse(in.next());
-        Pair<String, LocalDate> pairDate = new Pair<>("date", date);
+        Pair<String, LocalDate> pairDate = new Pair<>("La fecha es ", date);
 
         System.out.println("Ingrese su eps: ");
         String eps = (String) in.next();
-        Pair<String, String> pairEps = new Pair<>("eps", eps);
+        Pair<String, String> pairEps = new Pair<>("La EPS del usuario es: ", eps);
 
         ArrayList user = new ArrayList(4);
 
