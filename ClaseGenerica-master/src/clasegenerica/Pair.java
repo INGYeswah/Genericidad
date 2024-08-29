@@ -31,7 +31,8 @@ public class Pair<T, U> {
     
     @Override
     public String toString(){
-        return "Clave " + dato1 + ", Valor: " + dato2;
+        // Estoy seguro que los "" no van pero prefiero asegurarme.
+        return "" + dato1 + dato2 + "";
     }
 }
 
