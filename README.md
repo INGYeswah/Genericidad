@@ -17,6 +17,7 @@ LocalDate date = (LocalDate) ((Pair) arrayUser.get(2)).getSecond();
 
 // Obtener la EPS del usuario
 String eps = (String) ((Pair) arrayUser.get(3)).getSecond();
+```
 
 ## Funcionamiento
 
