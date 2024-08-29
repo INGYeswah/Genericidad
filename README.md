@@ -1,27 +1,33 @@
-Funcionamiento del programa de java
+# README: Programa de Gestión de Usuarios en Java
 
-// Cabe aclarar que el programa al iniciar vuelve a pedir los datos de un segundo, tercer y cuarto usuario, y asi mismo imprime los mismos datos mostrados en el ejemplo pero con mas usuarios.
-// Ademas los datos que se llevaran a la base de datos se encuentran en el bucle para su procesamiento
-//                 String name = (String) ((Pair) arrayUser.get(0)).getSecond();
-//                 int edad = (Integer) ((Pair) arrayUser.get(1)).getSecond();
-//                 LocalDate date = (LocalDate) ((Pair) arrayUser.get(2)).getSecond();
-//                 String eps = (String) ((Pair) arrayUser.get(2)).getSecond();
+## Descripción
 
+Este programa en Java permite ingresar y procesar la información de múltiples usuarios. Al iniciar, el programa solicita los datos de cada usuario y los almacena. Luego, muestra la información ingresada en la pantalla.
 
+## Funcionamiento
 
-Ejemplo de funcionamiento: 
+### Entrada de Datos
 
-Ingrese su nombre:
-(InputUser): Yeswah
-Ingrese su edad:
-(InputUser): 19
-Ingrese su fecha de nacimiento:
-//A la hora de meter la fecha es necesario que sea dela forma 2021-12-21
-//Si la fecha está en formato ISO Local Date (yyyy-mm-dd), no necesitamos configurar el formato. Podemos analizar directamente el String al método parse() que devuelve la fecha local.
-(InputUser): 2005-04-21 
-Ingrese su eps:
-(InputUser): Sanitas
-El nombre del usuario es: Yeswah
-La edad del usuario es: 19
-La fecha es 2005-04-21 
-La EPS del usuario es: Sanitas
+El programa solicita los siguientes datos para cada usuario:
+
+1. **Nombre del Usuario:**
+   - El usuario debe ingresar su nombre.
+   - Ejemplo de entrada: `Yeswah`
+
+2. **Edad del Usuario:**
+   - El usuario debe ingresar su edad en formato numérico.
+   - Ejemplo de entrada: `19`
+
+3. **Fecha de Nacimiento:**
+   - El usuario debe ingresar su fecha de nacimiento en formato ISO Local Date (`yyyy-MM-dd`).
+   - Ejemplo de entrada: `2005-04-21`
+
+4. **EPS del Usuario:**
+   - El usuario debe ingresar el nombre de su EPS (Entidad Promotora de Salud).
+   - Ejemplo de entrada: `Sanitas`
+
+### Ejemplo de Salida
+
+Para los datos de entrada proporcionados, el programa mostrará la siguiente salida:
+
+El nombre del usuario es: Yeswah  La edad del usuario es: 19 La fecha es: 2005-04-21 La EPS del usuario es: Sanitas
