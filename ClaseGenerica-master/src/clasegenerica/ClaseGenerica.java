@@ -24,6 +24,9 @@ public class ClaseGenerica {
                 int edad = (Integer) ((Pair) arrayUser.get(1)).getSecond();
                 LocalDate date = (LocalDate) ((Pair) arrayUser.get(2)).getSecond();
                 String eps = (String) ((Pair) arrayUser.get(2)).getSecond();
+
+                ((Pair)arrayUser).toString();
+                
             }
         }
 
