@@ -4,6 +4,12 @@
 
 Este programa en Java permite ingresar y procesar la información de múltiples usuarios. Al iniciar, el programa solicita los datos de cada usuario y los almacena. Luego, muestra la información ingresada en la pantalla.
 
+
+>                String name = (String) ((Pair) arrayUser.get(0)).getSecond();
+                 int edad = (Integer) ((Pair) arrayUser.get(1)).getSecond();
+                 LocalDate date = (LocalDate) ((Pair) arrayUser.get(2)).getSecond();
+                 String eps = (String) ((Pair) arrayUser.get(2)).getSecond();
+
 ## Funcionamiento
 
 ### Entrada de Datos
