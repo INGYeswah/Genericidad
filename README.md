@@ -4,7 +4,7 @@
 
 Este programa en Java permite ingresar y procesar la información de múltiples usuarios. Al iniciar, el programa solicita los datos de cada usuario y los almacena. Luego, muestra la información ingresada en la pantalla.
 
-
+Ademas los datos que se llevaran a la base de datos se encuentran en el bucle para su procesamiento
 ```java
 // Obtener el nombre del usuario
 String name = (String) ((Pair) arrayUser.get(0)).getSecond();
